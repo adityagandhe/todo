@@ -21,7 +21,7 @@ this.props.next();
             <MuiThemeProvider>
               <React.Fragment>
 <AppBar title='Enter Business Details'></AppBar>
-<TextField  defaultValue ={this.props.value.email} floatingLabelText =" Email" hintText="Enter Email" onChange={this.props.onChange('email')}></TextField>
+<TextField  defaultValue ={this.props.value.email} floatingLabelText =" Email Data" hintText="Enter Email" onChange={this.props.onChange('email')}></TextField>
 <br></br>
 <TextField  defaultValue ={this.props.value.cityName} floatingLabelText =" cityName" hintText="Enter cityName" onChange={this.props.onChange('cityName')}></TextField>
 <br></br>
